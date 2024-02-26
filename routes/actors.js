@@ -24,11 +24,11 @@ routes.post('/add', (req, res) => {
     
 })
 
-routes.put('/all', (req, res) => {
+routes.put('/update/:name', (req, res) => {
     
 })
 
-routes.delete('/all', (req, res) => {
+routes.delete('/delete/:name', (req, res) => {
     
 })
 
